@@ -12,14 +12,17 @@
     <h2>Pizza rendelés</h2>
 
     <form>
+        <fieldset>
         <label for="fname">Vezetéknév:</label><br>
         <input type="text" id="fname" name="fname" value=""><br>
         <label for="lname">utónév:</label><br>
         <input type="text" id="lname" name="lname" value=""><br><br>
         <input type="submit" value="submit">
+        </fieldset>
     </form>
 
-    <form action="/action_page.php">
+    <form>
+        <fieldset>
         <input type="checkbox" id="méret1" name="méret1" value="kicsi">
         <label for="méret1"> kicsi</label><br>
         <input type="checkbox" id="méret2" name="méret2" value="közepes">
@@ -27,6 +30,7 @@
         <input type="checkbox" id="méret3" name="méret3" value="nagy">
         <label for="méret3"> nagy</label><br><br>
         <input type="submit" value="submit">
+        </fieldset>
     </form>
 
     <h2>Feltétt</h2>
@@ -34,12 +38,14 @@
  <p>Válassza ki a feltéteket:</p>
 
     <form>
+        <fieldset>
         <input type="radio" id="pepperóni" name="pepperóni" value="pepperóni">
         <label for="pepperóni">pepperóni</label><br>
         <input type="radio" id="gomba" name="gomba" value="gomba">
         <label for="gomba">gomba</label><br>
         <input type="radio" id="sajt" name="sajt" value="sajt">
         <label for="sajt">sajt</label>
+        </fieldset>
     </form>
     
 </body>
