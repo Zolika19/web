@@ -11,18 +11,18 @@
     
     <h2>Pizza rendelés</h2>
 
-    <form action="/action_page.php">
+    <form>
         <fieldset>
         <legend> Személyes adatok:</legend>
         <label for="fname">Vezetéknév:</label><br>
-        <input type="text" id="fname" name="fname" value=""><br>
+        <input type="text" id="fname" name="fname" value="Név"><br>
         <label for="lname">utónév:</label><br>
-        <input type="text" id="lname" name="lname" value=""><br><br>
+        <input type="text" id="lname" name="lname" value="Név"><br><br>
         <input type="submit" value="submit">
         </fieldset>
     </form>
 
-    <form action="/action_page.php">
+    <form>
         <fieldset>
         <legend>Méretek:</legend>
         <input type="checkbox" id="méret1" name="méret1" value="kicsi">
@@ -35,7 +35,7 @@
         </fieldset>
     </form>
 
-    <form action="/action_page.php">
+    <form>
         <fieldset>
         <legend>Feltétek:</legend>
         <input type="radio" id="pepperóni" name="pepperóni" value="pepperóni">
@@ -57,5 +57,14 @@
         </fieldset>
     </form>
     
+    <form>
+        <textarea name="message" rows="10" cols="30">
+            Egyéb információ.
+            </textarea>
+    </form>
+
+    <form>
+        
+    </form>
 </body>
 </html>
